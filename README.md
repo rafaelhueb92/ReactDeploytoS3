@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 This project is based on this article [Deploy React to AWS S3](https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6)
 
 ## Available Scripts
@@ -9,9 +10,9 @@ In the project directory, you can run:
 
 - Create a bucket
 - Install AWS CLI
-- aws configure and put your credentials from your IAM User
-- Run build
-- Run deploy (Substitute on package.json in section scripts, value deploy, < your bucket name > by your bucket name).
+- Run `aws configure` and put your credentials from your IAM User
+- Run `yarn build`
+- Run `yarn deploy` (Substitute on package.json in section scripts, value deploy, < your bucket name > by your bucket name).
 
 ### `yarn start`
 
